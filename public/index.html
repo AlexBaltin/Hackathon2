@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <button onclick="getRandomNews()">Random News</button>
+        <button onclick="showNews('read')">History of read news</button>
+        <button onclick="showNews('important')">Important news</button>
+        <button onclick="showNews('fake')">Fake news</button>
+    
+    </div>
+
+    <div id="news-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
